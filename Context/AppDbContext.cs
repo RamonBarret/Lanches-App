@@ -10,8 +10,6 @@ namespace LanchesApp.Context
         }
 
         public DbSet<Categoria> Categorias { get; set; }
-        public DbSet<Lanches> Lanches { get; set; }
-
-
+        public DbSet<Lanche> Lanches { get; set; }
     }
 }

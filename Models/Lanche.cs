@@ -2,7 +2,7 @@
 
 namespace LanchesApp.Models
 {
-    public class Lanches
+    public class Lanche
     {
         public int LanchesId { get; set; }
         public string Nome { get; set; }
@@ -14,7 +14,7 @@ namespace LanchesApp.Models
         public bool IsLanchePreferido { get; set; }
         public bool EmEstoque { get; set; }
 
-        //ForeignKey - relacionamento entre as Classes 'Lanches' e 'Categoria' (Lanches podem ter muitas categorias)
+        //ForeignKey - relacionamento entre as Classes 'Lanche' e 'Categoria' (um Lanche pode ter muitas Categorias)
         public int CategoriaId { get; set; }
         public virtual Categoria Categoria { get; set; }
     }

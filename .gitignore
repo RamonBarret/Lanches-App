@@ -1,0 +1,20 @@
+# IDEs
+.idea/
+.vs/
+
+# Build artifacts
+bin/
+obj/
+
+# User-specific files
+*.user
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Development settings (contains secrets)
+appsettings.Development.json

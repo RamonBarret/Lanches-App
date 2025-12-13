@@ -4,7 +4,7 @@ namespace LanchesApp.Models
 {
     public class Lanche
     {
-        public int LanchesId { get; set; }
+        public int LancheId { get; set; }
         public string Nome { get; set; }
         public string DescricaoCurta { get; set; }
         public string DescricaoDetalhada { get; set; }

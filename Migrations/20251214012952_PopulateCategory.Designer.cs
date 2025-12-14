@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LanchesApp.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20251214001315_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20251214012952_PopulateCategory")]
+    partial class PopulateCategory
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

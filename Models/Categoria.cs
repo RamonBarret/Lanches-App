@@ -16,7 +16,7 @@ namespace LanchesApp.Models
 
         [StringLength(200, ErrorMessage = "O tamanho máximo é 200 caracteres")]
         [Required(ErrorMessage = "Informe a descrição da categoria")]
-        [Display(Name = "Nome")]
+        [Display(Name = "Descrição")]
         public string Descricao { get; set; }
 
         //ForeignKey - relacionamento entre as Classes 'Lanche' e 'Categoria' (um Lanche pode ter muitas Categorias)
